@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="/assets/dashboardstyles.css">
+	<link rel="icon" type="image/ico" href="/assets/money.png" />
+	<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h2><%= quote %></h2>
+	<main>
+		<div class="stocks">
+			<button class="stockButton"><a href="http://localhost:3000/stocks">Stocks</a></button>
+		</div>
+		<div class="budget">
+			<a href="http://localhost:3000/budget"><button class="budgetButton">Budget</button></a>
+		</div>
+		<div class="goals">
+			<button class="goalsButton"><a href="http://localhost:3000/goals">Goals</a></button>
+		</div>
+		<div class="logout">
+			<button class="logoutButton"><a href="http://localhost:3000/logout">Log Out</a></button>
+		</div>
+	</main>
+
+</body>
+</html>

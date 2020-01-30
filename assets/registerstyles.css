@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #7498F2;
+}
+
+input[type="text"], textarea {
+  background-color : none; 
+}
+
+.errors {
+  list-style-type: none;
+  text-align: center;
+  color: red;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px #74D7F2 inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: white;
+}
+
+.loginBox {
+	width: 35%;
+	height: 85%;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 3%;
+	padding: 6% 4%;
+	background-color: #7cffcb;
+	background-image: linear-gradient(315deg, #7cffcb 0%, #74D7F2 74%);
+}
+
+.title {
+	margin: 0;
+	margin-top: -10%;
+	padding: 0 0 5%;
+	text-align: center;
+	font-size: 150%;
+	color: #7498F2;
+	font-family: 'Roboto', sans-serif;
+}
+
+.loginBox p {
+	margin: 0;
+	padding-bottom: 1%;
+	margin-right: 2%;
+	font-weight: bold;
+	color: #7498F2;
+	font-family: 'Roboto', sans-serif;
+}
+
+.loginBox input{
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.loginBox input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 2px solid #7498F2;
+	background: transparent;
+	outline: none;
+	height: 10%;
+	color: white;
+	font-size: 100%;
+	color: #fff;
+}
+
+.loginBox input[type="submit"]{
+	border: none;
+	outline: none;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: white;
+	background-color: #7498F2;
+	font-size: 115%;
+	border-radius: 2%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.loginBox input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: blue;
+}
+
+.loginBox a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 28%;
+}
+
+.loginBox a:hover{
+	text-decoration: none;
+	color: blue;
+	font-family: 'Roboto', sans-serif;
+}
+
+.registerLink {
+	margin-bottom: 200%;
+}

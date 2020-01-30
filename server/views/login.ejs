@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+
+	<link rel="stylesheet" type="text/css" href="/assets/loginstyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/ico" href="/assets/money.png" />
+
+</head>
+<body>
+
+	<div class="loginBox">
+		<p></p>
+		<h2 class="title">Login</h2>
+		<form action="http://localhost:3000/login/users" method="post">
+			<input type="text" name="username" placeholder="Username" id="user">
+			<input type="password" name="password" placeholder="Password" id="pass">
+			<input type="submit" name="submit" value="Login">
+			<a class="registerLink" href="http://localhost:3000/register">Don't have an account?</a>
+		</form>
+	</div>
+
+</body>
+</html>
+

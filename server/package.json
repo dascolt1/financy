@@ -1,0 +1,29 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Tommy D'Ascoli",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bower": "^1.8.8",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.17.0",
+    "express-validator": "^5.3.1",
+    "flash": "^1.1.0",
+    "mysql": "^2.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "util.promisify": "^1.0.0"
+  }
+}

@@ -1,0 +1,157 @@
+body {
+	background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+}
+
+h2 {
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: -5%;
+	font-family: 'Lobster', cursive;
+	color: #D52A5F;
+}
+
+main {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.stockButton {
+	position: relative;
+    left: 30%;
+    top: 50%;
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(90deg, #599bb3, #03a9f4, #408c99, #7cffcb, #12A8B2, #599bb3);
+	background-color:#599bb3;
+	border-radius:8px;
+	background-size: 400%;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:400%;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	font-family: 'Baskervville', serif;
+}
+
+.budgetButton {
+	position: relative;
+    left: 30%;
+    top: 50%;
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(90deg, #599bb3, #03a9f4, #408c99, #7cffcb, #12A8B2, #599bb3);
+	background-color:#599bb3;
+	border-radius:8px;
+	background-size: 400%;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:400%;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	font-family: 'Baskervville', serif;
+}
+
+.goalsButton {
+	position: relative;
+    left: 30%;
+    top: 50%;
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(90deg, #599bb3, #03a9f4, #408c99, #7cffcb, #12A8B2, #599bb3);
+	background-color:#599bb3;
+	border-radius:8px;
+	background-size: 400%;
+	display:inline-block;
+	cursor:pointer;
+	color: #ffffff;
+	font-size:400%;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	font-family: 'Baskervville', serif;
+}
+
+.logoutButton {
+	position: relative;
+    left: 30%;
+    top: 50%;
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(90deg, #599bb3, #03a9f4, #408c99, #7cffcb, #12A8B2, #599bb3);
+	background-color:#599bb3;
+	border-radius:8px;
+	background-size: 400%;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:375%;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	font-family: 'Baskervville', serif;
+}
+
+.stockButton:hover {
+	background-color:#408c99;
+	transform: scale(1.1);
+	animation: animate 8s linear infinite;
+}
+
+.stockButton a {
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.budgetButton:hover {
+	background-color:#408c99;
+	transform: scale(1.1);
+	animation: animate 8s linear infinite;
+}
+
+.budgetButton a {
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.goalsButton:hover {
+	background-color:#408c99;
+	transform: scale(1.1);
+	animation: animate 8s linear infinite;
+}
+
+.goalsButton a {
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.logoutButton:hover {
+	background-color:#408c99;
+	transform: scale(1.1);
+	animation: animate 8s linear infinite;
+}
+
+
+.logoutButton a {
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+@keyframes animate {
+	0%{
+		background-position: 0%;
+	}
+
+	100%{
+		background-position: 700%;
+	}
+}

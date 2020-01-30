@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %></title>
+
+	<link rel="stylesheet" type="text/css" href="/assets/registerstyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/ico" href="/assets/money.png" />
+
+</head>
+<body>
+
+	<div class="loginBox">
+		<h2 class="title">Register</h2>
+		<% if (errors) { %>
+			  <ul class="errors">
+			  <% for(var i=0; i<errors.length; i++) {%>
+   			  <li><%= errors[i].msg %></li>
+		<% } %>
+</ul>
+		<% } %>
+		<form action="http://localhost:3000/register/users" method="post">
+			<p>Username</p>
+			<input type="text" name="username" placeholder="Username" id="username">
+			<p>Password</p>
+			<input type="password" name="password" placeholder="Password" id="password">
+			<p>Confirm Password</p>
+			<input type="password" name="confirmPasswd" placeholder="Confirm Password" id="confirm">
+			<input type="submit" name="submit" value="Register">
+			<a class="registerLink" href="http://localhost:3000/login">Already have an account?</a>
+		</form>
+	</div>
+</body>
+</html>
+
+
+  
+
